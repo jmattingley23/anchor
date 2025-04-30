@@ -2784,7 +2784,316 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor:Fan_3pin"
+		(symbol "Fuse_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F2"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_1_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1_1"
+				(text "8A"
+					(at 1.778 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Heater_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R16"
+				(at 2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "120VAC 500W Heater"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistive heater"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "heater R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heater_1_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.508) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.508) (xy -1.016 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy -1.016 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Heater_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Fan"
 			(pin_names
 				(offset 0)
 			)
@@ -2792,7 +3101,214 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "M"
-				(at 2.54 2.54 0)
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fan"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Fan Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_0_1"
+				(arc
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
+					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Fan_3pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M1"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2801,12 +3317,12 @@
 				)
 			)
 			(property "Value" "Fan_3pin"
-				(at 2.54 -5.08 0)
+				(at 5.08 -3.8099 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3029,7 +3545,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "Tacho"
+					(name "Alarm"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3066,6 +3582,303 @@
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SW_SPST_NC_Temperature_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW5"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermostat"
+				(at -0.254 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "temperature switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_NC_Temperature_1_0_0"
+				(circle
+					(center -2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 7.874) (xy 1.905 8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.858) (xy 0.762 6.858) (xy 0.762 6.35) (xy -0.762 6.35) (xy -0.762 5.842)
+						(xy 0 5.842) (xy 0 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_NC_Temperature_1_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Screw_Terminal_01x01_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x01_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3331,6 +4144,299 @@
 					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Thermal_Fuse_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F15"
+				(at 3.81 -1.778 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Thermal_Fuse"
+				(at -2.286 -5.842 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermal_Fuse_1_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermal_Fuse_1_1_1"
+				(text "160°C"
+					(at 1.778 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Thermal_Fuse_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F14"
+				(at -2.032 -2.032 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Thermal_Fuse"
+				(at -2.286 -5.842 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermal_Fuse_2_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermal_Fuse_2_1_1"
+				(text "100°C"
+					(at 1.778 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4617,6 +5723,166 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "jmatt:SW_SPST_NC_Temperature"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW2"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST_NC_Temperature"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "temperature switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_NC_Temperature_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.778) (xy -0.762 1.778) (xy -0.762 2.286) (xy 0.762 2.286) (xy 0.762 2.794)
+						(xy 0 2.794) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_NC_Temperature_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "jmatt:Schneider_Electric_DPE25BL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5621,6 +6887,19 @@
 		(uuid 3569786f-0ff0-47df-a70b-f9376ee6dc05)
 	)
 	(circle
+		(center 72.39 -67.564)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type dash_dot)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3bac6f31-72c9-4d2f-9234-dce6767bf0f6)
+	)
+	(circle
 		(center 383.54 85.09)
 		(radius 4.5791)
 		(stroke
@@ -5632,25 +6911,239 @@
 		)
 		(uuid 542d6302-a0c0-4091-96dd-285db036b722)
 	)
+	(circle
+		(center 100.33 -67.564)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type dash_dot)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73bb2ba5-131e-43c8-8fd0-c5d38b9fb9c7)
+	)
+	(rectangle
+		(start 151.13 -49.53)
+		(end 201.93 -26.67)
+		(stroke
+			(width 0.127)
+			(type dash_dot)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 894814d4-544e-4b83-ba5f-52f962185174)
+	)
+	(rectangle
+		(start 66.04 -45.72)
+		(end 100.33 -26.67)
+		(stroke
+			(width 0.127)
+			(type dash_dot)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91a06f44-1814-487f-b33d-92ffcb580717)
+	)
+	(rectangle
+		(start 140.97 -54.61)
+		(end 247.65 -20.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae0d8534-9dc9-4657-874e-f3b11eddb64f)
+	)
+	(rectangle
+		(start 58.42 -54.61)
+		(end 132.588 -20.574)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b57263fc-4d37-41e7-b97b-0d52e3756f3d)
+	)
+	(text "PTC Heater"
+		(exclude_from_sim no)
+		(at 196.342 -27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2473028c-8691-4cd6-8376-f0fd07d82264")
+	)
+	(text "Silicone Mat"
+		(exclude_from_sim no)
+		(at 94.234 -27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5bbe19fc-e070-4c79-bc4d-8c928c8a7e3c")
+	)
+	(text "Bed Assy"
+		(exclude_from_sim no)
+		(at 62.992 -21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "879da47b-7dfd-48d7-a6f5-9c534a78384f")
+	)
+	(text "Chamber Heater Assy"
+		(exclude_from_sim no)
+		(at 151.638 -21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f99c1c9f-597d-4e7d-bd53-619fcddfc227")
+	)
+	(text "Cable Chains"
+		(exclude_from_sim no)
+		(at 86.36 -67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ff1c72e6-87a2-4cbd-b1aa-d69c7909a545")
+	)
 	(junction
-		(at 149.86 60.96)
+		(at 213.36 -39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43d1d153-7f50-4f75-9a97-a76d9446229a")
+	)
+	(junction
+		(at 220.98 -43.18)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "48f6ac49-3c70-4582-9477-2670d8774bd4")
+	)
+	(junction
+		(at 181.61 -33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f79b70-4a9a-4dc0-9a67-859d782997da")
+	)
+	(junction
+		(at 181.61 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a74baa2-54fe-4466-bf54-ee4cb1f51dac")
+	)
+	(junction
+		(at 130.81 -120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76e0ee57-f4d0-4ed5-acc8-42b997c9b932")
 	)
 	(junction
-		(at 149.86 87.63)
+		(at 130.81 -93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "833bba93-a52e-4f19-bc21-9a48d9139be6")
 	)
+	(junction
+		(at 330.2 -148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885e577f-5f15-49e8-872f-db5fb8386911")
+	)
+	(junction
+		(at 109.22 -26.67)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "ce81ac32-a005-4991-ba92-5fac6058a354")
+	)
+	(junction
+		(at 109.22 -41.91)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "d90d8eb8-290b-4d3d-8712-8779ad28ed8e")
+	)
+	(junction
+		(at 353.06 -148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b9f6fb-4984-40f4-bb7b-bb77c86cb9df")
+	)
+	(junction
+		(at 220.98 -27.94)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "e7a7867c-624e-4798-9094-328db2cac35b")
+	)
 	(no_connect
-		(at 139.7 86.36)
+		(at 120.65 -95.25)
 		(uuid "32a69cab-e245-4661-9c5f-bf7937758c6b")
 	)
 	(no_connect
-		(at 139.7 62.23)
+		(at 120.65 -119.38)
 		(uuid "33c28e86-d55d-44fd-8a26-a153c6f2ed65")
+	)
+	(wire
+		(pts
+			(xy 90.17 -93.98) (xy 90.17 -96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "004a18d1-8ade-4c17-a515-c9761f600ccb")
+	)
+	(wire
+		(pts
+			(xy 110.49 -93.98) (xy 115.57 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "0161796b-53b1-4def-97e5-d923e09920df")
+	)
+	(wire
+		(pts
+			(xy 109.22 -40.64) (xy 109.22 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "02a5a836-561c-4df9-aa10-260d487cf4c2")
+	)
+	(wire
+		(pts
+			(xy 73.66 -90.17) (xy 73.66 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "02c7da20-76d6-4ca8-94cd-dcb3c2dfe4a6")
 	)
 	(wire
 		(pts
@@ -5674,6 +7167,17 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 -33.02) (xy 181.61 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "068129af-5197-4180-9345-6578466aeacc")
+	)
+	(wire
+		(pts
 			(xy 350.52 77.47) (xy 350.52 34.29)
 		)
 		(stroke
@@ -5694,6 +7198,17 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 -95.25) (xy 118.11 -90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "10274b75-abd1-4945-9950-4b5e2a325eed")
+	)
+	(wire
+		(pts
 			(xy 226.06 118.11) (xy 226.06 151.13)
 		)
 		(stroke
@@ -5702,6 +7217,17 @@
 			(color 179 80 0 1)
 		)
 		(uuid "11a268e7-02a0-47ac-82d4-b3240dbaff06")
+	)
+	(wire
+		(pts
+			(xy 109.22 -26.67) (xy 109.22 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "12d3b613-c3c3-4d75-b277-635efed9950a")
 	)
 	(wire
 		(pts
@@ -5723,6 +7249,17 @@
 			(type default)
 		)
 		(uuid "1481c9c0-8ab5-4d7a-89ee-07e1f02b5a2b")
+	)
+	(wire
+		(pts
+			(xy 73.66 -90.17) (xy 118.11 -90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "16303b13-f65a-4c43-811a-782ce7322364")
 	)
 	(wire
 		(pts
@@ -5748,13 +7285,46 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 62.23) (xy 144.78 60.96)
+			(xy 147.32 -76.2) (xy 147.32 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "1f78536d-47d7-4e60-9d8a-dca3bc34f0e1")
+	)
+	(wire
+		(pts
+			(xy 125.73 -119.38) (xy 125.73 -120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "209db3d2-707f-42d2-b828-5ffa4f8e2cbd")
+	)
+	(wire
+		(pts
+			(xy 220.98 -27.94) (xy 237.49 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "294f2dda-35ac-4399-846b-1d087108a540")
+	)
+	(wire
+		(pts
+			(xy 148.59 -76.2) (xy 148.59 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "2a2776ba-bf35-4503-94da-71c6912b3a9a")
 	)
 	(wire
 		(pts
@@ -5769,6 +7339,37 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 -34.29) (xy 196.85 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bae8783-a072-4c0f-882e-df23a8a60c79")
+	)
+	(wire
+		(pts
+			(xy 181.61 -43.18) (xy 181.61 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "2c917484-6dc8-482b-b5a1-6e5a55af6b14")
+	)
+	(wire
+		(pts
+			(xy 88.9 -36.83) (xy 86.36 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331fcccb-2af6-48fe-9da3-2362a374c608")
+	)
+	(wire
+		(pts
 			(xy 320.04 39.37) (xy 320.04 77.47)
 		)
 		(stroke
@@ -5776,6 +7377,39 @@
 			(type default)
 		)
 		(uuid "347ea231-5470-4dab-b02d-5dd25fbdb218")
+	)
+	(wire
+		(pts
+			(xy 101.6 -74.93) (xy 101.6 -26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3500b28a-8255-40a1-b10a-7deaf1c13f6d")
+	)
+	(wire
+		(pts
+			(xy 330.2 -151.13) (xy 337.82 -151.13)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "3537b7cd-8450-45db-8c80-ee730988ad90")
+	)
+	(polyline
+		(pts
+			(xy 92.71 -106.68) (xy 93.98 -105.41)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "37d60d3e-f61c-4789-ac62-6f25bfc52a8b")
 	)
 	(wire
 		(pts
@@ -5822,6 +7456,61 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 -95.25) (xy 115.57 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "3bd846d9-2e99-4538-b0dd-00517653c8eb")
+	)
+	(polyline
+		(pts
+			(xy 92.71 -106.68) (xy 96.52 -106.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "3cb16b7b-da37-46fd-8107-64e3a35e5d32")
+	)
+	(polyline
+		(pts
+			(xy 92.71 -106.68) (xy 93.98 -107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "49e92b57-cd92-45c0-84a9-d47d16d21e29")
+	)
+	(wire
+		(pts
+			(xy 209.55 -39.37) (xy 213.36 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "4a0c6f78-ac0a-4407-ae66-028f58c3d868")
+	)
+	(wire
+		(pts
+			(xy 102.87 -41.91) (xy 109.22 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4de6f98a-d7dc-4eb9-919e-2578a8a24f57")
+	)
+	(wire
+		(pts
 			(xy 248.92 146.05) (xy 254 146.05)
 		)
 		(stroke
@@ -5833,13 +7522,24 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 152.4 87.63)
+			(xy 130.81 -93.98) (xy 133.35 -93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f898e01-2cad-48dd-92d0-5d0d34e0a678")
+	)
+	(wire
+		(pts
+			(xy 100.33 -93.98) (xy 102.87 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "505ed6f3-30d3-45e8-bb06-1d32b10c7808")
 	)
 	(wire
 		(pts
@@ -5864,6 +7564,17 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 -26.67) (xy 121.92 -26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "516ec028-d0ef-4fc2-8363-406114dd2311")
+	)
+	(wire
+		(pts
 			(xy 186.69 110.49) (xy 181.61 110.49)
 		)
 		(stroke
@@ -5871,6 +7582,17 @@
 			(type default)
 		)
 		(uuid "517c423c-07ca-4e96-84e8-0c03f0772107")
+	)
+	(wire
+		(pts
+			(xy 82.55 -41.91) (xy 82.55 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "53161f06-45f9-4cfd-a415-d0cbba1ad7e4")
 	)
 	(wire
 		(pts
@@ -5884,6 +7606,49 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 -33.02) (xy 186.69 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "55cc0f48-871e-455f-a374-07508c79bcda")
+	)
+	(wire
+		(pts
+			(xy 353.06 -148.59) (xy 353.06 -146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "55d48a32-266a-434c-a634-700ce00b43ac")
+	)
+	(wire
+		(pts
+			(xy 97.79 -74.93) (xy 97.79 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e8db93-393d-4fec-b659-0d5cf99b05a7")
+	)
+	(wire
+		(pts
+			(xy 229.87 -39.37) (xy 229.87 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "593da9a0-bf34-41e8-95cd-8339f28d91ee")
+	)
+	(wire
+		(pts
 			(xy 251.46 148.59) (xy 177.8 148.59)
 		)
 		(stroke
@@ -5891,6 +7656,28 @@
 			(type default)
 		)
 		(uuid "5a2510d2-91a6-4adf-86c3-4fc896816c51")
+	)
+	(wire
+		(pts
+			(xy 102.87 -74.93) (xy 102.87 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5a2763c1-f2a4-41a4-a357-2db5c1984a86")
+	)
+	(wire
+		(pts
+			(xy 82.55 -41.91) (xy 73.66 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "5af32dae-ba3e-4691-978c-4820d4e16f4e")
 	)
 	(wire
 		(pts
@@ -5914,6 +7701,17 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 -39.37) (xy 229.87 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "5fad6f78-2268-4418-884c-a141f5604ee5")
+	)
+	(wire
+		(pts
 			(xy 364.49 43.18) (xy 364.49 85.09)
 		)
 		(stroke
@@ -5924,7 +7722,58 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 149.86 73.66)
+			(xy 72.39 -34.29) (xy 72.39 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "60e8b893-7062-4acc-9ea1-f10e09de67cd")
+	)
+	(wire
+		(pts
+			(xy 71.12 -74.93) (xy 71.12 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f8aee5-003c-4605-8e4c-cd8b67d3f3f2")
+	)
+	(wire
+		(pts
+			(xy 63.5 -48.26) (xy 63.5 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a5f647-c9c9-48bf-9dab-03fab4c97aa1")
+	)
+	(wire
+		(pts
+			(xy 207.01 -76.2) (xy 207.01 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f30247-9b0f-4939-8aea-f7f13a5d5d99")
+	)
+	(wire
+		(pts
+			(xy 196.85 -43.18) (xy 205.74 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65612ebf-08c6-4fdc-abbf-69432927fa07")
+	)
+	(wire
+		(pts
+			(xy 130.81 -106.68) (xy 130.81 -107.95)
 		)
 		(stroke
 			(width 0)
@@ -5945,6 +7794,39 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 -148.59) (xy 302.26 -148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "6770af24-6115-4185-92ec-79a1076edbe4")
+	)
+	(wire
+		(pts
+			(xy 186.69 -33.02) (xy 186.69 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "68bfc822-fcd4-4017-aed0-f47a8b23d372")
+	)
+	(wire
+		(pts
+			(xy 345.44 -146.05) (xy 353.06 -146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "6c2a83b7-2f69-49c6-a161-4bd63bd07b21")
+	)
+	(wire
+		(pts
 			(xy 276.86 144.78) (xy 276.86 146.05)
 		)
 		(stroke
@@ -5953,6 +7835,17 @@
 			(color 0 138 255 1)
 		)
 		(uuid "6ec2eea4-3da7-47b7-a1a9-cac41ac8d72d")
+	)
+	(wire
+		(pts
+			(xy 237.49 -43.18) (xy 237.49 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7399e29a-dc96-41c7-babb-58b9adc8a4f3")
 	)
 	(wire
 		(pts
@@ -5988,6 +7881,17 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 -43.18) (xy 186.69 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "7938cdc7-b167-4dce-b7ec-b5b2b578f786")
+	)
+	(wire
+		(pts
 			(xy 184.15 123.19) (xy 184.15 142.24)
 		)
 		(stroke
@@ -5998,7 +7902,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 149.86 60.96)
+			(xy 125.73 -120.65) (xy 130.81 -120.65)
 		)
 		(stroke
 			(width 0)
@@ -6018,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 144.78 87.63)
+			(xy 125.73 -95.25) (xy 125.73 -93.98)
 		)
 		(stroke
 			(width 0)
@@ -6028,7 +7932,29 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 149.86 87.63)
+			(xy 101.6 -26.67) (xy 109.22 -26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "81d50ab1-18ff-4d5b-b995-f4dddf1557f2")
+	)
+	(polyline
+		(pts
+			(xy 96.52 -97.79) (xy 96.52 -106.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "81d8f489-576d-4d96-a791-c9d1ae81af23")
+	)
+	(wire
+		(pts
+			(xy 130.81 -99.06) (xy 130.81 -93.98)
 		)
 		(stroke
 			(width 0)
@@ -6048,6 +7974,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 -41.91) (xy 196.85 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e45492-d69f-474f-b235-3525da6ab10e")
+	)
+	(wire
+		(pts
 			(xy 372.11 43.18) (xy 364.49 43.18)
 		)
 		(stroke
@@ -6055,6 +7991,28 @@
 			(type default)
 		)
 		(uuid "84b5650d-da21-4e20-80c8-5a8d555f2cbf")
+	)
+	(wire
+		(pts
+			(xy 209.55 -76.2) (xy 209.55 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "8520e79b-4f6d-4365-8904-bafa5f12a0b6")
+	)
+	(wire
+		(pts
+			(xy 82.55 -31.75) (xy 81.28 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "858acf9f-fc22-47be-a354-5a3e7b39e11c")
 	)
 	(wire
 		(pts
@@ -6069,6 +8027,49 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 -135.89) (xy 115.57 -119.38)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "8b023f5f-7ae9-4660-99f8-7bc91bd794ea")
+	)
+	(wire
+		(pts
+			(xy 196.85 -33.02) (xy 207.01 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc5fbe1-6e74-47cc-85c6-0f8f3fe83e38")
+	)
+	(wire
+		(pts
+			(xy 345.44 -151.13) (xy 353.06 -151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "8d8b500d-7b4b-4e6e-8691-593015f53f00")
+	)
+	(wire
+		(pts
+			(xy 220.98 -43.18) (xy 237.49 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8e0c4336-7de6-4b5d-af3e-87f161a75260")
+	)
+	(wire
+		(pts
 			(xy 328.93 41.91) (xy 328.93 39.37)
 		)
 		(stroke
@@ -6076,6 +8077,49 @@
 			(type default)
 		)
 		(uuid "9345e43b-5d4c-43a6-9f9c-67d58bb4e6a4")
+	)
+	(wire
+		(pts
+			(xy 90.17 -93.98) (xy 92.71 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "93f934c1-34ab-4c0a-928e-a06911497cb3")
+	)
+	(wire
+		(pts
+			(xy 220.98 -43.18) (xy 210.82 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "953acee8-165f-4e76-a602-ce6ff7170c58")
+	)
+	(wire
+		(pts
+			(xy 121.92 -41.91) (xy 121.92 -40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "95950ff0-9065-4dca-a6be-9448cbe47367")
+	)
+	(wire
+		(pts
+			(xy 205.74 -76.2) (xy 205.74 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97132574-bdf0-4553-a814-29ee27106f3e")
 	)
 	(wire
 		(pts
@@ -6099,6 +8143,17 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 -41.91) (xy 220.98 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9d749f4a-52cb-42a1-9028-015540405d1b")
+	)
+	(wire
+		(pts
 			(xy 339.09 77.47) (xy 350.52 77.47)
 		)
 		(stroke
@@ -6109,6 +8164,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 -74.93) (xy 99.06 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43a9a4d-8740-421b-9738-fc2268cb1840")
+	)
+	(wire
+		(pts
 			(xy 320.04 77.47) (xy 331.47 77.47)
 		)
 		(stroke
@@ -6116,6 +8181,17 @@
 			(type default)
 		)
 		(uuid "a4a609f2-74e0-4c10-98e0-23523fa9ca56")
+	)
+	(wire
+		(pts
+			(xy 72.39 -31.75) (xy 73.66 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "a4ac0aa6-2e77-42d7-9dc3-81dcaffd67b0")
 	)
 	(wire
 		(pts
@@ -6137,6 +8213,17 @@
 			(type default)
 		)
 		(uuid "a5936c9b-f72e-4e76-83bc-3bf6e3aceb5c")
+	)
+	(wire
+		(pts
+			(xy 208.28 -76.2) (xy 208.28 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a70455e6-e6c8-4daa-bc5d-abed0e7d375e")
 	)
 	(wire
 		(pts
@@ -6192,6 +8279,17 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 -148.59) (xy 317.5 -148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "ae6a7d7a-7bbe-49ef-a739-04bd547a1580")
+	)
+	(wire
+		(pts
 			(xy 251.46 140.97) (xy 254 140.97)
 		)
 		(stroke
@@ -6199,6 +8297,39 @@
 			(type default)
 		)
 		(uuid "af092b57-e114-480a-9946-f624d6d8c09f")
+	)
+	(wire
+		(pts
+			(xy 181.61 -33.02) (xy 147.32 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "af7f8eca-374f-4236-b84e-6cdd586eaef5")
+	)
+	(wire
+		(pts
+			(xy 118.11 -133.35) (xy 118.11 -119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "b1049d24-8e6f-43fc-a097-e1f22a379eb6")
+	)
+	(wire
+		(pts
+			(xy 109.22 -41.91) (xy 121.92 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b12ca3a9-9581-4e21-a1d6-054d0f1e81f0")
 	)
 	(wire
 		(pts
@@ -6213,6 +8344,27 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 -133.35) (xy 133.35 -133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "b6749261-0096-4b55-827b-466b2cdd36b8")
+	)
+	(wire
+		(pts
+			(xy 86.36 -41.91) (xy 86.36 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72e8615-69ce-48f0-a538-2c20906689bb")
+	)
+	(wire
+		(pts
 			(xy 186.69 144.78) (xy 186.69 110.49)
 		)
 		(stroke
@@ -6220,6 +8372,48 @@
 			(type default)
 		)
 		(uuid "bdd64757-3c5b-458d-babc-d0a3b0a4eaf2")
+	)
+	(wire
+		(pts
+			(xy 87.63 -138.43) (xy 118.11 -138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde26f0d-d6a3-4529-9d7f-7f1896d4eb78")
+	)
+	(wire
+		(pts
+			(xy 327.66 -148.59) (xy 330.2 -148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "bfe1972e-8791-479e-b140-e611d2bef6c0")
+	)
+	(wire
+		(pts
+			(xy 115.57 -135.89) (xy 133.35 -135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "c0e8a47e-3716-4688-80b9-7e54abe3657a")
+	)
+	(wire
+		(pts
+			(xy 87.63 -118.11) (xy 87.63 -138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c136b23e-f3b0-4e9f-acd4-fc4289ea3be0")
 	)
 	(wire
 		(pts
@@ -6241,6 +8435,17 @@
 			(type default)
 		)
 		(uuid "c63cff4c-0ebf-4171-a536-0f3fdd0b9290")
+	)
+	(wire
+		(pts
+			(xy 353.06 -148.59) (xy 356.87 -148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "c64d16a6-fcff-4df7-80d3-8eaf530b91e0")
 	)
 	(wire
 		(pts
@@ -6287,13 +8492,35 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 152.4 60.96)
+			(xy 186.69 -43.18) (xy 186.69 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "cfa782a8-c931-4ed6-b048-fb704551a713")
+	)
+	(wire
+		(pts
+			(xy 130.81 -120.65) (xy 133.35 -120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2f330c9-be7f-4672-b12e-f03b476903c6")
+	)
+	(wire
+		(pts
+			(xy 72.39 -93.98) (xy 85.09 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "d382b860-bc84-4fef-98aa-14fc8bf99afa")
 	)
 	(wire
 		(pts
@@ -6327,13 +8554,88 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 149.86 87.63)
+			(xy 125.73 -93.98) (xy 130.81 -93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d715487b-93a7-40e2-9cb5-1cfb181fcf94")
+	)
+	(wire
+		(pts
+			(xy 213.36 -39.37) (xy 213.36 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "d764e6ba-6928-4876-abd4-cf63dec9c9dc")
+	)
+	(wire
+		(pts
+			(xy 330.2 -148.59) (xy 330.2 -146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "d8479c03-e06e-427d-921a-0d6fd8485614")
+	)
+	(wire
+		(pts
+			(xy 330.2 -148.59) (xy 330.2 -151.13)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "d93f776d-730b-421f-b5c7-1ad2ae296fcb")
+	)
+	(wire
+		(pts
+			(xy 210.82 -76.2) (xy 210.82 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "dbe2f1b4-ae9a-4e53-a1b5-fcc6ee1c8aee")
+	)
+	(wire
+		(pts
+			(xy 86.36 -41.91) (xy 97.79 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd024d80-0aa4-4384-93df-4a60dbdf0902")
+	)
+	(wire
+		(pts
+			(xy 63.5 -48.26) (xy 71.12 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9e9249-e9db-41a9-88df-6cb56f00bb9b")
+	)
+	(wire
+		(pts
+			(xy 330.2 -146.05) (xy 337.82 -146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "e36ac47b-d24a-472e-ad43-4fa0e7291604")
 	)
 	(wire
 		(pts
@@ -6345,6 +8647,48 @@
 			(color 179 80 0 1)
 		)
 		(uuid "e4d87589-7960-48ed-a7a1-2d5e2cea7bbb")
+	)
+	(wire
+		(pts
+			(xy 181.61 -29.21) (xy 146.05 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e668ddad-d609-42f7-be67-a467953471a1")
+	)
+	(wire
+		(pts
+			(xy 72.39 -93.98) (xy 72.39 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "eba78131-bb85-4448-8876-785cdc9aabcc")
+	)
+	(wire
+		(pts
+			(xy 146.05 -76.2) (xy 146.05 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb9f048-21da-495e-8797-7ad2b846821d")
+	)
+	(wire
+		(pts
+			(xy 220.98 -29.21) (xy 220.98 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ec074167-9a0b-40bd-8eb7-0527f08b0c87")
 	)
 	(wire
 		(pts
@@ -6369,7 +8713,18 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 66.04)
+			(xy 121.92 -26.67) (xy 121.92 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f2b3f6c3-af46-4f8b-943b-70a4c9388c3c")
+	)
+	(wire
+		(pts
+			(xy 130.81 -120.65) (xy 130.81 -115.57)
 		)
 		(stroke
 			(width 0)
@@ -6389,6 +8744,71 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 -36.83) (xy 96.52 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f480a546-ddd1-4e3c-9714-40a758f7eb2e")
+	)
+	(wire
+		(pts
+			(xy 85.09 -93.98) (xy 85.09 -96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "f50f195d-300a-4ee5-99d3-d172c9012112")
+	)
+	(wire
+		(pts
+			(xy 162.56 -43.18) (xy 167.64 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "f5ab5eb7-def9-40ec-9d3f-8ba30b89dc51")
+	)
+	(wire
+		(pts
+			(xy 353.06 -151.13) (xy 353.06 -148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 138 255 1)
+		)
+		(uuid "f660feee-c840-44dd-985e-881b51d17f72")
+	)
+	(wire
+		(pts
+			(xy 177.8 -43.18) (xy 181.61 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "f6987b6f-9f4f-4981-83c7-8d65866bbd59")
+	)
+	(wire
+		(pts
+			(xy 237.49 -29.21) (xy 237.49 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f890deaa-34ba-483d-9dac-09364e99a03c")
+	)
+	(wire
+		(pts
 			(xy 401.32 35.56) (xy 398.78 35.56)
 		)
 		(stroke
@@ -6396,6 +8816,28 @@
 			(type default)
 		)
 		(uuid "f89fbee8-f526-458e-84bb-7fdc56062462")
+	)
+	(wire
+		(pts
+			(xy 220.98 -27.94) (xy 208.28 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fb4221e2-e524-464e-9af7-67f354da75bd")
+	)
+	(wire
+		(pts
+			(xy 148.59 -43.18) (xy 154.94 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 179 80 0 1)
+		)
+		(uuid "fd0aa3cb-291e-414a-98b7-4665406447db")
 	)
 	(symbol
 		(lib_id "Device:Heater")
@@ -6467,7 +8909,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 149.86 78.74 90)
+		(at 130.81 -102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6476,7 +8918,7 @@
 		(fields_autoplaced yes)
 		(uuid "08f265a2-2ffb-47f7-9bfc-9a7a6425b521")
 		(property "Reference" "D3"
-			(at 152.4 77.4699 90)
+			(at 133.35 -104.1401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +8927,7 @@
 			)
 		)
 		(property "Value" "D_Zener"
-			(at 152.4 80.0099 90)
+			(at 133.35 -101.6001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 78.74 0)
+			(at 130.81 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 78.74 0)
+			(at 130.81 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 149.86 78.74 0)
+			(at 130.81 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +8979,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 149.86 69.85 270)
+		(at 130.81 -111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6546,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(uuid "092bb671-9c3f-42c6-9973-8a62a416a354")
 		(property "Reference" "D2"
-			(at 152.4 68.5799 90)
+			(at 133.35 -113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +8997,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 152.4 71.1199 90)
+			(at 133.35 -110.4901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +9006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 69.85 0)
+			(at 130.81 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +9015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 69.85 0)
+			(at 130.81 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +9024,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 149.86 69.85 0)
+			(at 130.81 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +9033,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 149.86 69.85 0)
+			(at 130.81 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +9042,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 69.85 0)
+			(at 130.81 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,6 +9152,76 @@
 			(project ""
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Thermal_Fuse_1")
+		(lib_id "jmatt:Thermal_Fuse")
+		(at 158.75 -43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1255bc8c-8f8a-4edc-bfff-9cd34409e48f")
+		(property "Reference" "F18"
+			(at 156.972 -39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermal_Fuse"
+			(at 152.4 -45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 -44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 158.75 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f86829a-874c-40f8-8836-b9bf107242f2")
+		)
+		(pin "1"
+			(uuid "22ca937e-1199-46bb-a1a3-f8c69d4c67b8")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "F18")
 					(unit 1)
 				)
 			)
@@ -6978,6 +9490,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor:Fan")
+		(at 121.92 -33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44859c70-37e3-4587-97d6-742705f3a4b0")
+		(property "Reference" "M27"
+			(at 125.73 -34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan"
+			(at 125.73 -32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan"
+			(at 121.92 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d01d7783-57f5-4894-8687-1b49a2eadf69")
+		)
+		(pin "1"
+			(uuid "b9628e8c-19e2-4ed1-8566-1e2c0ff32217")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "M27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Heater")
+		(at 341.63 -151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dcad0c5-df08-4ac9-8f9f-e475ae73036c")
+		(property "Reference" "R15"
+			(at 341.63 -153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120VAC 500W Heater"
+			(at 341.63 -148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 -149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 -151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 341.63 -151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc8b109-0ed1-40a2-bcbf-0d9e9e5e7edb")
+		)
+		(pin "2"
+			(uuid "b2d172d2-cf5f-4a50-89ed-e6daf54609e2")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPST")
 		(at 238.76 138.43 0)
 		(unit 1)
@@ -7051,35 +9699,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Fan_3pin")
-		(at 224.79 34.29 0)
+		(lib_id "Device:Heater")
+		(at 181.61 -38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6743f567-9f25-4c16-86ae-96aa97abee29")
+		(property "Reference" "R20"
+			(at 179.324 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120VAC 250W Heater x2"
+			(at 168.148 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.388 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 181.61 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aee0c65-174b-4d89-a364-d49d2f387c65")
+		)
+		(pin "2"
+			(uuid "7ae93c2f-dada-45cc-bd79-8b29ba9eed00")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jmatt:SW_SPST_NC_Temperature")
+		(at 322.58 -148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b447451-7473-42e1-bd65-d660cba07bd3")
-		(property "Reference" "M1"
-			(at 229.87 35.5599 0)
+		(uuid "6c9944c3-d0fd-4a01-bee3-0a01f8fd6647")
+		(property "Reference" "SW3"
+			(at 322.58 -156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Fan_3pin"
-			(at 229.87 38.0999 0)
+		(property "Value" "SW_SPST_NC_Temperature"
+			(at 322.58 -153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 36.576 0)
+			(at 322.58 -148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,8 +9800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg"
-			(at 224.79 36.576 0)
+		(property "Datasheet" "~"
+			(at 322.58 -143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,28 +9809,92 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fan, tacho output, 3-pin connector"
-			(at 224.79 34.29 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+			(at 322.58 -148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "7a458139-676b-47e4-bb98-10e6942e2fd4")
 		)
 		(pin "1"
-			(uuid "f2316aea-e5ed-445b-86e2-4a8f9180765a")
+			(uuid "7f3234ea-f121-4b82-9681-00e6af5a10f4")
 		)
-		(pin "3"
-			(uuid "e18c59a8-33e9-49b5-bb6d-a32cf71eeb73")
+		(pin "2"
+			(uuid "881b98b9-dfa5-4051-82c5-77a185e6b840")
 		)
 		(instances
 			(project ""
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
-					(reference "M1")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Heater")
+		(at 77.47 -31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d52d889-0cac-495d-8067-f5eb6f78223e")
+		(property "Reference" "R14"
+			(at 77.47 -34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120VAC 750W Heater"
+			(at 77.47 -29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 -29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 77.47 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1696df-2ed6-4ce7-be28-70b56555c55d")
+		)
+		(pin "2"
+			(uuid "e84a3bc0-2e3e-45e1-bc18-429ead1f0e11")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7125,7 +9902,7 @@
 	)
 	(symbol
 		(lib_id "jmatt:Schneider_Electric_DPE25BL")
-		(at 118.11 88.9 0)
+		(at 99.06 -92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7133,7 +9910,7 @@
 		(dnp no)
 		(uuid "7078e8d0-9093-4a70-868f-dc69ddb8d4ef")
 		(property "Reference" "U4"
-			(at 130.048 75.692 90)
+			(at 110.998 -105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +9919,7 @@
 			)
 		)
 		(property "Value" "Schneider_Electric_DPE25BL"
-			(at 131.572 87.376 90)
+			(at 112.522 -93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +9928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 88.9 0)
+			(at 99.06 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +9937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 88.9 0)
+			(at 99.06 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +9946,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 88.9 0)
+			(at 99.06 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,104 +9994,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_PTC")
-		(at 186.69 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b35dcf5-7cd7-4f6f-89ad-3acd1f55eaa9")
-		(property "Reference" "TH1"
-			(at 189.23 33.3374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermistor_PTC"
-			(at 189.23 35.8774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 186.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb1012a0-d091-4d79-a9ef-430f1455a9da")
-		)
-		(pin "2"
-			(uuid "c0474566-8ca8-4ae6-a735-2c524dadb90e")
-		)
-		(instances
-			(project ""
-				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "Thermal_Fuse_2")
 		(lib_id "jmatt:Thermal_Fuse")
-		(at 168.91 34.29 270)
+		(at 96.52 -93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c80f79c-e52e-4ccb-a042-da852757933b")
-		(property "Reference" "F2"
-			(at 168.91 27.94 90)
+		(uuid "7a2e0b94-ed0a-4116-935a-608fa641c285")
+		(property "Reference" "F14"
+			(at 94.488 -96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Thermal_Fuse"
-			(at 168.91 30.48 90)
+			(at 90.678 -96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 32.512 90)
+			(at 96.52 -95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +10032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 34.29 0)
+			(at 96.52 -93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +10041,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 168.91 34.29 0)
+			(at 96.52 -93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,15 +10050,84 @@
 			)
 		)
 		(pin "2"
-			(uuid "fce383fd-cba2-46cd-a799-e21b74592774")
+			(uuid "7073099c-1717-4a7d-ae41-a904f7d0895a")
 		)
 		(pin "1"
-			(uuid "2cfa9092-b7ef-4666-a307-b1e25054cdce")
+			(uuid "684512c7-ba5d-4179-9e5e-774af87d14d5")
 		)
 		(instances
-			(project ""
+			(project "anchor"
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
-					(reference "F2")
+					(reference "F14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Heater_1")
+		(lib_id "Device:Heater")
+		(at 341.63 -146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ea2afca-1283-4a3b-96ac-39cfac4ae8de")
+		(property "Reference" "R16"
+			(at 341.63 -143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120VAC 500W Heater"
+			(at 341.63 -143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 -144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 -146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 341.63 -146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ac8e38-f074-44ed-a89b-5f3b950d5f37")
+		)
+		(pin "2"
+			(uuid "1ea0cd18-7d55-4773-9453-626ec03aed6e")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7427,6 +10205,211 @@
 			(project "anchor"
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
 					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Heater_1")
+		(lib_id "Device:Heater")
+		(at 186.69 -38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9390d6d3-614d-4681-91f4-ae47bf1575ec")
+		(property "Reference" "R19"
+			(at 188.976 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120VAC 500W Heater"
+			(at 189.23 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.468 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 186.69 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b793d6c-9b70-4c27-81a5-c2d7aea775e7")
+		)
+		(pin "2"
+			(uuid "d86c8de8-87f4-45ac-8746-ef9d2b7344c4")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_PTC")
+		(at 196.85 -38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99739070-0d82-4b95-ae74-c97c3a70cf38")
+		(property "Reference" "TH13"
+			(at 193.294 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor_PTC"
+			(at 199.39 -37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+			(at 196.85 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b48a3f3-7566-4163-bb7c-834c7ac6d31b")
+		)
+		(pin "2"
+			(uuid "f803ab81-03c3-4692-a0eb-104b43aa21f1")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "TH13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_PTC")
+		(at 92.71 -36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a9aa136-479c-4790-85a0-ac9f2b04b501")
+		(property "Reference" "TH11"
+			(at 92.71 -40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor_PTC"
+			(at 91.948 -34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+			(at 92.71 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120dd17e-d1ef-4622-9852-56d0ea9c4c15")
+		)
+		(pin "2"
+			(uuid "d6112fef-c939-42a1-ba50-5c268bd805be")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "TH11")
 					(unit 1)
 				)
 			)
@@ -7739,34 +10722,249 @@
 		)
 	)
 	(symbol
-		(lib_name "Crydom_D2440_SPST_SSR-NO_3")
-		(lib_id "jmatt:Crydom_D2440_SPST_SSR-NO")
-		(at 91.44 64.77 0)
+		(lib_name "Screw_Terminal_01x01_1")
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 186.69 -29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c634ffab-ba2a-4a4e-8aef-0af5964de06f")
-		(property "Reference" "U5"
-			(at 92.075 63.5 0)
+		(uuid "bef73062-0eeb-4c2d-8c1c-c7989a7ae2cc")
+		(property "Reference" "J18"
+			(at 187.9601 -26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Crydom_D2440_SPST_SSR-NO"
-			(at 92.075 66.04 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 185.4201 -26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 64.77 0)
+			(at 186.69 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "450b0538-d867-4ddb-8522-b05974758856")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_3pin")
+		(at 237.49 -36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d637d2-3f2b-40ff-b25f-a16f2a6736d0")
+		(property "Reference" "M4"
+			(at 241.046 -36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan"
+			(at 241.046 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg"
+			(at 237.49 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, 3-pin connector"
+			(at 237.49 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c741d1ca-c760-44e0-8495-a8a1f2fa8c6e")
+		)
+		(pin "1"
+			(uuid "16c419ce-a310-4427-81b5-7f4015323e51")
+		)
+		(pin "3"
+			(uuid "38e3d47e-0dd3-400d-89f3-478f80a3a76b")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_3pin")
+		(at 220.98 -36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e61944-6f5b-425b-8270-30faac2873fc")
+		(property "Reference" "M3"
+			(at 224.536 -36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan"
+			(at 224.536 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg"
+			(at 220.98 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, 3-pin connector"
+			(at 220.98 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a90e6316-a2b8-40fc-bd83-bd8b6a9615c6")
+		)
+		(pin "1"
+			(uuid "1a7329d9-edda-4bc6-a7cd-fc28d8f172c1")
+		)
+		(pin "3"
+			(uuid "01a6db00-e71e-4193-86ce-915e71809dc2")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Crydom_D2440_SPST_SSR-NO_3")
+		(lib_id "jmatt:Crydom_D2440_SPST_SSR-NO")
+		(at 96.52 -107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c634ffab-ba2a-4a4e-8aef-0af5964de06f")
+		(property "Reference" "U5"
+			(at 79.502 -109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Crydom_D2440_SPST_SSR-NO"
+			(at 81.534 -123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +10973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 64.77 0)
+			(at 96.52 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +10982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 64.77 0)
+			(at 96.52 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,6 +11009,76 @@
 			(project ""
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Screw_Terminal_01x01_1")
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 63.5 -31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77f20ff-2c44-4b41-ab11-d1c66fc10d3e")
+		(property "Reference" "J16"
+			(at 60.96 -30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 60.96 -33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f9fc063-a9fd-481f-847f-fa4508eb6fe0")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -7910,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "XXA"
 			(at 248.92 137.668 90)
 			(effects
 				(font
@@ -8040,6 +11308,214 @@
 		)
 	)
 	(symbol
+		(lib_name "Thermal_Fuse_1")
+		(lib_id "jmatt:Thermal_Fuse")
+		(at 306.07 -148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3912370-32fe-430f-9aaa-ec219826ee6e")
+		(property "Reference" "F16"
+			(at 307.848 -152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermal_Fuse"
+			(at 311.912 -146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 -146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 -148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 306.07 -148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83a79dff-cf9a-4b67-8624-e820dec0091c")
+		)
+		(pin "1"
+			(uuid "d0a84d11-24a9-4498-af5e-805daec89a58")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "F16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Fuse_1")
+		(lib_id "Device:Fuse")
+		(at 106.68 -93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e41a021a-f93e-4316-8a3c-d17b23f483e6")
+		(property "Reference" "F2"
+			(at 106.68 -95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 106.68 -91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 -95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 106.68 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb463e6d-7805-455a-b571-43bd77a281ce")
+		)
+		(pin "1"
+			(uuid "faaa5c3d-6c53-4cb9-8a83-2b29af6382d0")
+		)
+		(instances
+			(project ""
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jmatt:Thermal_Fuse")
+		(at 72.39 -38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eab07fe5-19dc-4c7a-a33e-fcf54a83c36d")
+		(property "Reference" "F13"
+			(at 76.2 -36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermal_Fuse"
+			(at 70.104 -32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.612 -38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 72.39 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2839b9a0-0721-4ad5-9266-763fd61d3e0c")
+		)
+		(pin "1"
+			(uuid "e4cf91ac-0bbe-415f-94a6-b79bb417a0eb")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "F13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth_Protective")
 		(at 273.05 152.4 0)
 		(unit 1)
@@ -8099,6 +11575,143 @@
 			(project ""
 				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_SPST_NC_Temperature_1")
+		(lib_id "jmatt:SW_SPST_NC_Temperature")
+		(at 172.72 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f589b4ec-59c0-49e1-a4a2-1e1802d58b53")
+		(property "Reference" "SW5"
+			(at 172.72 -39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermostat"
+			(at 172.466 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 -35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 -30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+			(at 172.72 -35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b542c3-acb8-444f-a1b0-69a5372b33d1")
+		)
+		(pin "2"
+			(uuid "278780a2-abf0-4e13-8ec2-cf4aa881c13b")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan")
+		(at 109.22 -33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f71c8184-bd70-4039-ab6e-10922f40a3ef")
+		(property "Reference" "M26"
+			(at 112.776 -35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan"
+			(at 112.776 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan"
+			(at 109.22 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8beb15e-b80b-4a58-9d8d-befa843d8444")
+		)
+		(pin "1"
+			(uuid "828520ac-03ba-4e7d-9778-89131b290ef8")
+		)
+		(instances
+			(project "anchor"
+				(path "/bf3f85ac-1500-41dc-b3d7-49dc05762e81"
+					(reference "M26")
 					(unit 1)
 				)
 			)
