@@ -1,0 +1,1 @@
+![](images/anchor_wiring_diagram.png)
