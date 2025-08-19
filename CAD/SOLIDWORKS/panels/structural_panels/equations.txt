@@ -1,0 +1,3 @@
+﻿"corner_radius"= 20mm
+"hole_spacing"= 50mm
+"panel_thickness"= 3mm
