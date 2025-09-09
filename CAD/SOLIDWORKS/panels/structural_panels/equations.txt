@@ -1,3 +1,6 @@
 ﻿"corner_radius"= 20mm
-"hole_spacing"= 50mm
 "panel_thickness"= 3mm
+"hole_corner_offset"=10mm
+"frame_vertical_extrusion_length" = 720mm
+"frame_horizontal_extrusion_length" = 470mm
+"frame_rear_brace_extrusion_length" = 340mm
